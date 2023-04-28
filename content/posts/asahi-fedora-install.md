@@ -4,7 +4,7 @@ date: 2023-04-28T09:21:40-05:00
 draft: true
 ---
 
-## Before you begin...
+## Before you begin
 
 * The website for Asahi Fedora Remix can be found [here](https://asahi-fedora-remix.org/).
 * Asahi Fedora Remix is based on Fedora Linux. More information about Fedora Linux can be found [here](https://fedoraproject.org/).
@@ -17,8 +17,16 @@ draft: true
 3. Enter `r` to resize your current macOS partion.
 4. Enter your desired partition sizes.
 5. Allow the installer to complete the installation process.
+   *Note:* Before you reboot, be sure to remember your username. This can be found by entering `id -un` into a terminal.
 
 ## II. Recovery Mode
 
 1. Enter the boot selection menu by holding down the power button until the "Loading startup options..." text appears.
-2. Select Fedora Linux in the menu using the arrow keys. 
+2. Select Fedora Assahi Remix in the menu using the arrow keys.
+3. Enter your username and password as prompted.
+4. Reboot and you should be automatically booted into Fedora Asahi Remix.
+
+## III. Post-install Steps
+
+1. Update your packages with `dnf upgrade`.
+2. *(Optional)* Follow my personal post-installation steps for Fedora, which can be found [here](https://leitzke.me/posts/fedora-post-install).
