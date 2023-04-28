@@ -1,4 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Alexander Leitzke | leitzke.me'
 theme = 'hugo-blog-awesome'
+[author]
+name = "Alexander Leitzke"
