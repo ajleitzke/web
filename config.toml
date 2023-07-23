@@ -49,7 +49,7 @@ enableEmoji = true
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Hi, I'm Alexander Leitzke!"
   name = "Alexander Leitzke"
-  description = "A third-year student studying Business Analytics and Information Systems."
+  description = "A fourth-year student studying Business Analytics and Information Systems."
 
 [[params.socialIcons]]
 name = "github"
