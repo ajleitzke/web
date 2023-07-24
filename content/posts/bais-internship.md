@@ -1,5 +1,5 @@
 ---
-title: "South of 6 Project | Business Analytics and Information Systems Internship"
+title: "South of 6 Project"
 date: 2023-07-23T13:40:10-05:00
 draft: false
 ---
