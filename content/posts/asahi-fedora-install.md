@@ -22,7 +22,7 @@ draft: false
 ## II. Recovery Mode
 
 1. Enter the boot selection menu by holding down the power button until the "Loading startup options..." text appears.
-2. Select Fedora Assahi Remix in the menu using the arrow keys.
+2. Select Fedora Asahi Remix in the menu using the arrow keys.
 3. Enter your username and password as prompted.
 4. Reboot and you should be automatically booted into Fedora Asahi Remix.
 
