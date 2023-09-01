@@ -1,18 +1,18 @@
 ---
-title: "Installing Asahi Fedora Remix on Apple M-series Devices"
+title: "Installing Fedora Asahi Remix on Apple M-series Devices"
 date: 2023-04-28T09:21:40-05:00
-draft: true
+draft: false
 ---
 
 ## Before you begin
 
-* The website for Asahi Fedora Remix can be found [here](https://asahi-fedora-remix.org/).
-* Asahi Fedora Remix is based on Fedora Linux. More information about Fedora Linux can be found [here](https://fedoraproject.org/).
+* The website for Fedora Asahi Remix can be found [here](https://fedora-asahi-remix.org/).
+* Fedora Asahi Remix is based on Fedora Linux. More information about Fedora Linux can be found [here](https://fedoraproject.org/).
 * See currently supported features [here](https://github.com/AsahiLinux/docs/wiki/Feature-Support).
 
 ## I. Installation Script
 
-1. Copy `curl https://asahi-fedora-remix.org/install | sh` and paste into terminal.
+1. Copy `curl https://fedora-asahi-remix.org/install | sh` and paste into terminal.
 2. Enter `N` when asked to enter expert mode.
 3. Enter `r` to resize your current macOS partion.
 4. Enter your desired partition sizes.
@@ -29,4 +29,4 @@ draft: true
 ## III. Post-install Steps
 
 1. Update your packages with `dnf upgrade`.
-2. *(Optional)* Follow my personal post-installation steps for Fedora, which can be found [here](https://leitzke.me/posts/fedora-post-install).
+2. *(Optional)* [Follow my personal post-installation steps for Fedora](https://leitzke.me/posts/fedora-post-install).
