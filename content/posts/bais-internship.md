@@ -2,6 +2,8 @@
 title: "South of 6 Project"
 date: 2023-07-23T13:40:10-05:00
 draft: false
+categories: ["analytics"]
+tags: ["analytics", "data visualization", "data collection"]
 ---
 
 Over summer of 2023, I interned at the Univeristy of Iowa, working with non-profit organizations to collect, analyze and visualize their data. I chose to work with the South of 6 Business District in Iowa City, IA.

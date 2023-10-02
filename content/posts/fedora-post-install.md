@@ -2,6 +2,8 @@
 title: "Fedora Post-Installation Tweaks"
 date: 2023-04-28T13:21:17-05:00
 draft: false
+categories: ["linux"]
+tags: ["linux", "fedora"]
 ---
 
 Below is a list of post-installation tasks and tweaks I perform after installing Fedora Linux.
