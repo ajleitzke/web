@@ -3,6 +3,7 @@ title: Alexander Leitzke
 paginate: 5
 theme: PaperMod
 
+googleAnalytics: G-36ZFLBZSE3
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -23,7 +24,6 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light, auto
   disableThemeToggle: false
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
