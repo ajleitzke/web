@@ -1,5 +1,5 @@
 baseURL: "https://leitzke.me/"
-title: Alexander Leitzke
+title: leitzke.me
 paginate: 5
 theme: PaperMod
 
@@ -15,10 +15,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Alexander Leitzke
+  title: Zander Leitzke
   description: "leitzke.me"
   keywords: [Portfolio]
-  author: Alexander Leitzke
+  author: Zander Leitzke
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -70,7 +70,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: I'm Alexander Leitzke, a fourth-year student studying Business Analytics and Information Systems.
+    Content: I'm Zander Leitzke, a fourth-year student studying Business Analytics and Information Systems.
 
   socialIcons:
     - name: github
