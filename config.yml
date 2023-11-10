@@ -20,7 +20,7 @@ params:
   keywords: [Portfolio]
   author: Zander Leitzke
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light, auto
   disableThemeToggle: false
