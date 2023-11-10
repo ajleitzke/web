@@ -1,6 +1,6 @@
 ---
 title: "South of 6 Project"
-date: 2023-07-23T13:40:10-05:00
+date: 2023-08-01T13:40:10-05:00
 draft: false
 categories: ["analytics"]
 tags: ["analytics", "data visualization", "data collection"]
