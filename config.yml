@@ -125,4 +125,4 @@ markup:
     codeFences: false
     guessSyntax: false
     lineNos: false
-    # style: monokai
+    # style: github-dark-dimmed
