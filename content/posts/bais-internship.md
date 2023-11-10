@@ -27,8 +27,8 @@ Over summer of 2023, I interned at the Univeristy of Iowa, working with non-prof
 
 ## See the tools I wrote to help me throughout this project!
 
-* [Simple Python text analysis for word clouds in Tableau](https://github.com/ajleitzke/So6-Survey-Text-Analysis)
-* [Data cleaning tool for new Call for Service data](https://github.com/ajleitzke/So6DataClean)
+* Simple Python text analysis for word clouds in Tableau: [GitHub](https://github.com/ajleitzke/So6-Survey-Text-Analysis)
+* Data cleaning tool for new Call for Service data: [GitHub](https://github.com/ajleitzke/So6DataClean), [Site](https://ajleitzke.pythonanywhere.com/)
 
 ## See the survey I created!
 
