@@ -14,16 +14,16 @@ Over summer of 2023, I interned at the Univeristy of Iowa, working with non-prof
 
 ## See the dashboards I created!
 
-#### Master Dashboard
-![Image displaying master dashboard with visualizations across all 5 subjects.](master-dashboard.png)
-
-#### Survey Dashboard
+### Survey Dashboard
 [![Survey dashboard](survey.png)](https://public.tableau.com/views/Southof6BusinessImpactSurvey/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 *Click the image to open the dashboard.*
 
-#### Call for Service Dashboard
+### Call for Service Dashboard
 [![Call for service dashboard](call-for-service.png)](https://public.tableau.com/app/profile/alexander.leitzke/viz/Southof6CallforService/CallforServiceDashboard)
 *Click the image to open the dashboard.*
+
+### Main (Combined) Dashboard
+![Image displaying master dashboard with visualizations across all 5 subjects.](master-dashboard.png)
 
 ## See the tools I wrote to help me throughout this project!
 
@@ -31,4 +31,5 @@ Over summer of 2023, I interned at the Univeristy of Iowa, working with non-prof
 * [Data cleaning tool for new Call for Service data](https://github.com/ajleitzke/So6DataClean)
 
 ## See the survey I created!
+
 * [Survey link](https://drive.google.com/file/d/15ikaZzSTloRnV_5X1pkX1M5n13Nlr82r/view?usp=sharing)
