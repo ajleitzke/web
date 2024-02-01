@@ -1,5 +1,5 @@
 baseURL: "https://leitzke.me/"
-title: leitzke.me
+title: Zander Leitzke | leitzke.me
 paginate: 5
 theme: PaperMod
 
@@ -17,7 +17,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Zander Leitzke
   description: "leitzke.me"
-  keywords: [Portfolio]
+  keywords: ["Portfolio", "Blog", "Zander Leitzke", "Business Analytics", "Information Systems", "Data Science", "Data Analytics", "Data Engineering", "Data Visualization", "Data"]
   author: Zander Leitzke
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
