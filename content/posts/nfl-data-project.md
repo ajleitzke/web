@@ -20,7 +20,8 @@ SELECT TEAMNAME, WINS, CASE
     ELSE 'Poor' 
 END AS SeasonPerformance 
 FROM TEAM 
-JOIN STATS ON TEAM.TEAMID = STATS.TEAMID JOIN SEASON ON STATS.SeasonID = SEASON.SeasonID
+JOIN STATS ON TEAM.TEAMID = STATS.TEAMID
+JOIN SEASON ON STATS.SeasonID = SEASON.SeasonID
 WHERE SEASON.SEASONID = '2019' 
 ORDER BY WINS DESC;
 ```
@@ -35,7 +36,8 @@ SELECT
   CONCAT(ROUND(SUM(WINS) / SUM(WINS + LOSSES) * 100, 2), '%') AS WinPercentage,
   ROUND(AVG(WINS),2) AS AverageWins
 FROM COACHES
-JOIN STATS ON COACHES.CoachID = STATS.CoachID JOIN TEAM ON STATS.TeamID = TEAM.TeamID
+JOIN STATS ON COACHES.CoachID = STATS.CoachID
+JOIN TEAM ON STATS.TeamID = TEAM.TeamID
 GROUP BY FirstName, LastName
 ORDER BY TotalWins DESC;
 ```
@@ -66,7 +68,8 @@ Q4: Passing Yards Visualization
 
 ```sql
 SELECT TeamName, SUM(PassingYards) AS PassingYards, SUM(PassingTds) AS PassingTDs
-FROM STATS JOIN TEAM ON STATS.TeamID = TEAM.TeamID
+FROM STATS
+JOIN TEAM ON STATS.TeamID = TEAM.TeamID
 GROUP BY TeamName
 ORDER BY PassingYards DESC;
 ```
@@ -75,7 +78,8 @@ Q4: Passing Touchdowns Visualization
 
 ```sql
 SELECT TeamName, SUM(PassingYards) AS PassingYards, SUM(PassingTds) AS PassingTDs
-FROM STATS JOIN TEAM ON STATS.TeamID = TEAM.TeamID
+FROM STATS
+JOIN TEAM ON STATS.TeamID = TEAM.TeamID
 GROUP BY TeamName
 ORDER BY PassingTds DESC;
 ```
@@ -84,7 +88,8 @@ Q4: Rushing Yards Visualization
 
 ```sql
 SELECT TeamName, SUM(RushingYards) AS RushingYards, SUM(RushingTds) AS RushingTDs
-FROM STATS JOIN TEAM ON STATS.TeamID = TEAM.TeamID
+FROM STATS
+JOIN TEAM ON STATS.TeamID = TEAM.TeamID
 GROUP BY TeamName
 ORDER BY RushingYards DESC;
 ```
@@ -93,7 +98,8 @@ Q4: Rushing Touchdowns Visualization
 
 ```sql
 SELECT TeamName, SUM(RushingYards) AS RushingYards, SUM(RushingTds) AS RushingTDs
-FROM STATS JOIN TEAM ON STATS.TeamID = TEAM.TeamID
+FROM STATS
+JOIN TEAM ON STATS.TeamID = TEAM.TeamID
 GROUP BY TeamName
 ORDER BY RushingTds DESC;
 ```
