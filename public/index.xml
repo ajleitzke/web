@@ -1,10 +1,138 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Home on leitzke.me</title>
-    <link>http://example.org/</link>
-    <description>Recent content in Home on leitzke.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <title>Home on Zander Leitzke</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Zander Leitzke</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Aug 2023 13:40:10 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>South of 6 Project</title>
+      <link>http://localhost:1313/posts/bais-internship/</link>
+      <pubDate>Tue, 01 Aug 2023 13:40:10 -0500</pubDate>
+      <guid>http://localhost:1313/posts/bais-internship/</guid>
+      <description>&lt;p&gt;Over summer of 2023, I interned at the Univeristy of Iowa, working with non-profit organizations to collect, analyze and visualize their data. I chose to work with the South of 6 Business District in Iowa City, IA.&lt;/p&gt;
+&lt;h2 id=&#34;view-the-recording&#34;&gt;View the recording!&lt;/h2&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/X8ARGScV5_g?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;see-the-dashboards-i-created&#34;&gt;See the dashboards I created!&lt;/h2&gt;
+&lt;h3 id=&#34;survey-dashboard&#34;&gt;Survey Dashboard&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://public.tableau.com/views/Southof6BusinessImpactSurvey/Dashboard1?:language=en-US&amp;amp;publish=yes&amp;amp;:display_count=n&amp;amp;:origin=viz_share_link&#34;&gt;&lt;img alt=&#34;Survey dashboard&#34; loading=&#34;lazy&#34; src=&#34;survey.png&#34;&gt;&lt;/a&gt;
+&lt;em&gt;Click the image to open the dashboard.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NFL Data Project</title>
+      <link>http://localhost:1313/posts/nfl-data-project/</link>
+      <pubDate>Wed, 10 May 2023 07:27:54 -0600</pubDate>
+      <guid>http://localhost:1313/posts/nfl-data-project/</guid>
+      <description>&lt;p&gt;As a final project for my Database Management class, my group and I decided to analyze NFL statistics and front offices from 2009-2019 using SQL. The project site is linked &lt;a href=&#34;https://apex.oracle.com/pls/apex/r/nfl_data_project/nfl-data-analysis/home?session=100636108704812&#34;&gt;here&lt;/a&gt;, where you can find our analysis, visualizations, and tables.&lt;/p&gt;
+&lt;h2 id=&#34;sql-queries&#34;&gt;SQL Queries&lt;/h2&gt;
+&lt;p&gt;Q1: Team Success&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;TEAMNAME&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WINS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;CASE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;WHEN&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WINS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;THEN&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Great&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;WHEN&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WINS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;THEN&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Good&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;WHEN&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WINS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;THEN&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Okay&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ELSE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Poor&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;END&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;AS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SeasonPerformance&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;TEAM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;JOIN&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;STATS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ON&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;TEAM&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;TEAMID&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;STATS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;TEAMID&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;JOIN&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SEASON&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ON&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;STATS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SeasonID&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SEASON&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SeasonID&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;WHERE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SEASON&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SEASONID&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;2019&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;ORDER&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;BY&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WINS&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;DESC&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Q2: Head Coach Visualization&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fedora Post-Installation Tweaks</title>
+      <link>http://localhost:1313/posts/fedora-post-install/</link>
+      <pubDate>Fri, 28 Apr 2023 13:21:17 -0500</pubDate>
+      <guid>http://localhost:1313/posts/fedora-post-install/</guid>
+      <description>&lt;p&gt;Below is a list of post-installation tasks and tweaks I perform after installing Fedora Linux.&lt;/p&gt;
+&lt;h2 id=&#34;system-basics&#34;&gt;System Basics&lt;/h2&gt;
+&lt;h3 id=&#34;set-dnf-flags&#34;&gt;Set DNF Flags&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vim /etc/dnf/dnf.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I add the following:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;max_parallel_downloads&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;deltarpm&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;True
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;defaultyes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;True
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;max_parallel_downloads=10&lt;/code&gt; allows DNF to download 10 packages at a time rather than 3 (the default).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;deltarpm=True&lt;/code&gt; enables deltarpms&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;defaultyes=True&lt;/code&gt; makes the yes/no prompt default to yes (similar to apt and pacman)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;update-fedora&#34;&gt;Update Fedora&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo dnf upgrade
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Should do this before doing anything else on your system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installing Fedora Asahi Remix on Apple M-series Devices</title>
+      <link>http://localhost:1313/posts/asahi-fedora-install/</link>
+      <pubDate>Fri, 28 Apr 2023 09:21:40 -0500</pubDate>
+      <guid>http://localhost:1313/posts/asahi-fedora-install/</guid>
+      <description>&lt;h2 id=&#34;before-you-begin&#34;&gt;Before you begin&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The website for Fedora Asahi Remix can be found &lt;a href=&#34;https://fedora-asahi-remix.org/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Fedora Asahi Remix is based on Fedora Linux. More information about Fedora Linux can be found &lt;a href=&#34;https://fedoraproject.org/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;See currently supported features &lt;a href=&#34;https://github.com/AsahiLinux/docs/wiki/Feature-Support&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;i-installation-script&#34;&gt;I. Installation Script&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Copy &lt;code&gt;curl https://fedora-asahi-remix.org/install | sh&lt;/code&gt; and paste into terminal.&lt;/li&gt;
+&lt;li&gt;Enter &lt;code&gt;N&lt;/code&gt; when asked to enter expert mode.&lt;/li&gt;
+&lt;li&gt;Enter &lt;code&gt;r&lt;/code&gt; to resize your current macOS partion.&lt;/li&gt;
+&lt;li&gt;Enter your desired partition sizes.&lt;/li&gt;
+&lt;li&gt;Allow the installer to complete the installation process.
+&lt;em&gt;Note:&lt;/em&gt; Before you reboot, be sure to remember your username. This can be found by entering &lt;code&gt;id -un&lt;/code&gt; into a terminal.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ii-recovery-mode&#34;&gt;II. Recovery Mode&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Enter the boot selection menu by holding down the power button until the &amp;ldquo;Loading startup options&amp;hellip;&amp;rdquo; text appears.&lt;/li&gt;
+&lt;li&gt;Select Fedora Asahi Remix in the menu using the arrow keys.&lt;/li&gt;
+&lt;li&gt;Enter your username and password as prompted.&lt;/li&gt;
+&lt;li&gt;Reboot and you should be automatically booted into Fedora Asahi Remix.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;iii-post-install-steps&#34;&gt;III. Post-install Steps&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Update your packages with &lt;code&gt;dnf upgrade&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;(Optional)&lt;/em&gt; &lt;a href=&#34;https://leitzke.me/posts/fedora-post-install&#34;&gt;Follow my personal post-installation steps for Fedora&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/privacy/</guid>
+      <description>&lt;p&gt;At leitzke.me, accessible from &lt;a href=&#34;https://www.leitzke.me&#34;&gt;https://www.leitzke.me&lt;/a&gt;, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by leitzke.me and how we use it.&lt;/p&gt;
+&lt;p&gt;If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.&lt;/p&gt;
+&lt;p&gt;This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in leitzke.me. This policy is not applicable to any information collected offline or via channels other than this website.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Terms and Conditions</title>
+      <link>http://localhost:1313/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terms/</guid>
+      <description>&lt;p&gt;Please read these terms and conditions carefully before using Our Service.&lt;/p&gt;
+&lt;h2 id=&#34;interpretation-and-definitions&#34;&gt;Interpretation and Definitions&lt;/h2&gt;
+&lt;h3 id=&#34;interpretation&#34;&gt;Interpretation&lt;/h3&gt;
+&lt;p&gt;The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.&lt;/p&gt;
+&lt;h3 id=&#34;definitions&#34;&gt;Definitions&lt;/h3&gt;
+&lt;p&gt;For the purposes of these Terms and Conditions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Affiliate&lt;/strong&gt; means an entity that controls, is controlled by or is under common control with a party, where &amp;ldquo;control&amp;rdquo; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Country&lt;/strong&gt; refers to: Iowa, United States&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company&lt;/strong&gt; (referred to as either &amp;ldquo;the Company&amp;rdquo;, &amp;ldquo;We&amp;rdquo;, &amp;ldquo;Us&amp;rdquo; or &amp;ldquo;Our&amp;rdquo; in this Agreement) refers to leitzke.me.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Device&lt;/strong&gt; means any device that can access the Service such as a computer, a cellphone or a digital tablet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service&lt;/strong&gt; refers to the Website.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terms and Conditions&lt;/strong&gt; (also referred as &amp;ldquo;Terms&amp;rdquo;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Third-party Social Media Service&lt;/strong&gt; means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt; refers to leitzke.me, accessible from &lt;a href=&#34;https://www.leitzke.me&#34;&gt;https://www.leitzke.me&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;You&lt;/strong&gt; means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;acknowledgment&#34;&gt;Acknowledgment&lt;/h2&gt;
+&lt;p&gt;These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
