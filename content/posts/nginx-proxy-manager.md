@@ -1,7 +1,7 @@
 ---
 title: "Create an Internal Reverse Proxy Using Nginx Proxy Manager, Pi-hole, and Docker"
 date: 2025-01-21T11:30:27-05:00
-draft: true
+draft: false
 ---
 
 ## Requirements
