@@ -55,9 +55,9 @@ params:
 
   giscus:
     repo: "ajleitzke/web"
-    repoID: "R_kgDOJchGEQ"
+    repoID: "R_kgDORQhw4w"
     category: "General"
-    categoryID: "DIC_kwDOJchGEc4C2czu"
+    categoryID: "DIC_kwDORQhw484C2djA"
     mapping: "pathname"
     reactionsEnabled: "0"
     emitMetadata: "0"
