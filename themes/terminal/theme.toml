@@ -1,0 +1,7 @@
+name = "Terminal"
+license = "MIT"
+description = "A Hugo theme inspired by terminal/hacker aesthetics with dark and light mode support."
+min_version = "0.112.0"
+
+[author]
+  name = "Zander Leitzke"

@@ -1,0 +1,11 @@
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="{{ "privacy" | absURL }}">Privacy Policy</a>
+      <a href="{{ "terms" | absURL }}">Terms & Conditions</a>
+    </div>
+    <p class="footer-copy">
+      &copy; {{ now.Year }} {{ .Site.Params.author | default .Site.Title }}
+    </p>
+  </div>
+</footer>

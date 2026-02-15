@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="list-page">
+  <h1 class="list-title"><span class="prompt">&gt;</span> {{ .Title }}</h1>
+
+  <div class="terms-list">
+    {{- range .Pages }}
+    <a href="{{ .Permalink }}" class="term-item">
+      <span class="term-name"><span class="dollar">$</span> {{ .Title | lower }}</span>
+      <span class="term-count">({{ .Pages.Len }})</span>
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{ end }}

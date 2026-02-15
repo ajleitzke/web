@@ -1,0 +1,34 @@
+<header class="header">
+  <nav class="nav">
+    <div class="nav-top">
+      <a href="{{ .Site.BaseURL }}" class="site-title">
+        <span class="prompt">&gt;</span> {{ .Site.Title }}
+      </a>
+      <div class="nav-top-right">
+        <ul class="nav-links">
+          {{- range .Site.Menus.main }}
+          <li>
+            <a href="{{ .URL }}" class="nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
+              <span class="dollar">$</span> {{ .Name }}
+            </a>
+          </li>
+          {{- end }}
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme"></button>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+          <svg class="menu-icon-open" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          <svg class="menu-icon-close" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+    <ul class="mobile-menu">
+      {{- range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}" class="mobile-menu-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
+          <span class="dollar">$</span> {{ .Name }}
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+  </nav>
+</header>

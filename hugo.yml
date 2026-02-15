@@ -1,0 +1,84 @@
+baseURL: "https://leitzke.me/"
+title: Zander Leitzke
+pagination.pagerSize: 5
+theme: terminal
+
+# Set via HUGO_GOOGLEANALYTICS environment variable
+googleAnalytics: ""
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  title: Zander Leitzke
+  description: "leitzke.me"
+  keywords: ["Portfolio", "Blog", "Zander Leitzke", "Business Analytics", "Information Systems", "Data Science", "Data Analytics", "Data Engineering", "Data Visualization", "Data"]
+  author: Zander Leitzke
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowWordCount: true
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: I'm Zander Leitzke, a fourth-year student studying Business Analytics and Information Systems.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/ajleitzke"
+    - name: gitlab
+      url: "https://gitlab.com/ajleitzke"
+    - name: linkedin
+      url: "https://linkedin.com/in/alexander-leitzke"
+    - name: rss
+      url: "https://leitzke.me/index.xml"
+
+  editPost:
+    URL: "https://github.com/ajleitzke/web/tree/main/content/"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  giscus:
+    repo: "ajleitzke/web"
+    repoID: "R_kgDOJchGEQ"
+    category: "General"
+    categoryID: "DIC_kwDOJchGEc4C2czu"
+    mapping: "pathname"
+    reactionsEnabled: "0"
+    emitMetadata: "0"
+    inputPosition: "top"
+    lang: "en"
+
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 10
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
+
+markup:
+  highlight:
+    noClasses: false

@@ -1,0 +1,49 @@
+{{ define "main" }}
+<div class="list-page">
+  <h1 class="list-title"><span class="prompt">&gt;</span> {{ .Title }}</h1>
+
+  {{- if .Content }}
+  <div class="list-content">
+    {{ .Content }}
+  </div>
+  {{- end }}
+
+  <div class="post-list">
+    {{- range .Pages }}
+    <article class="post-entry">
+      <a href="{{ .Permalink }}" class="post-link">
+        <div class="post-meta">
+          {{- if not .Date.IsZero }}
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format ($.Site.Params.DateFormat | default "January 2, 2006") }}</time>
+          {{- end }}
+          {{- if $.Site.Params.ShowReadingTime }}
+          {{- if gt .ReadingTime 0 }}
+          <span class="reading-time">&middot; {{ .ReadingTime }} min read</span>
+          {{- end }}
+          {{- end }}
+        </div>
+        <h2 class="post-title">{{ .Title }}</h2>
+        {{- if not $.Site.Params.hideSummary }}
+        {{- if .Summary }}
+        <p class="post-summary">{{ .Plain | htmlUnescape | truncate 200 }}</p>
+        {{- end }}
+        {{- end }}
+      </a>
+    </article>
+    {{- end }}
+  </div>
+
+  {{- $paginator := .Paginator }}
+  {{- if gt $paginator.TotalPages 1 }}
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="page-link">&larr; prev</a>
+    {{- end }}
+    <span class="page-info">page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+    {{- if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="page-link">next &rarr;</a>
+    {{- end }}
+  </nav>
+  {{- end }}
+</div>
+{{ end }}
