@@ -5,7 +5,7 @@ hidemeta: true
 comments: false
 ---
 
-*Last updated: February 14, 2026*
+*Last updated: February 15, 2026*
 
 Please read these terms before using leitzke.me ("the Site"), operated by Zander Leitzke ("I", "me", "my").
 

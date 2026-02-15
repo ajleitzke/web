@@ -3,8 +3,6 @@ title: Zander Leitzke
 pagination.pagerSize: 5
 theme: terminal
 
-# Set via HUGO_GOOGLEANALYTICS environment variable
-googleAnalytics: ""
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
