@@ -1298,7 +1298,22 @@ img {
 .post-content iframe {
   max-width: 100%;
   border-radius: var(--radius);
+  display: block;
+}
+
+/* Fix Hugo youtube shortcode wrapper clipping */
+.post-content > div:has(> iframe) {
+  overflow: visible !important;
+  padding-bottom: 0 !important;
+  height: auto !important;
+  position: relative;
   margin: 1.5rem 0;
+}
+
+.post-content > div:has(> iframe) > iframe {
+  position: relative !important;
+  width: 100%;
+  aspect-ratio: 16 / 9;
 }
 
 /* ============================================

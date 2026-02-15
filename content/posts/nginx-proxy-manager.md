@@ -6,6 +6,8 @@ tags: ["nginx", "reverse proxy", "docker", "pi-hole", "unbound", "compose"]
 categories: ["projects","home lab"]
 ---
 
+Creating an internal reverse proxy is a great way to host your services, without having to expose your device to the internet. Our reverse proxy will only be accessible to devices on our local network, or a VPN on our network. In this example, we'll use Nginx Proxy Manager and Pi-hole to create a reverse proxy. 
+
 ## Requirements
 * A domain
 * A device to host our docker containers (ex: Raspberry Pi)
