@@ -64,18 +64,18 @@ params:
 
 menu:
   main:
+    - identifier: home
+      name: home
+      url: /
+      weight: 5
     - identifier: posts
       name: posts
       url: /posts/
       weight: 10
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 20
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 30
+      weight: 20
 
 markup:
   highlight:

@@ -2,7 +2,6 @@
 title: "Installing Fedora Asahi Remix on Apple M-series Devices"
 date: 2023-04-28T09:21:40-05:00
 draft: false
-categories: ["linux", "apple"]
 tags: ["linux", "fedora", "apple silicon", "apple"]
 ---
 
