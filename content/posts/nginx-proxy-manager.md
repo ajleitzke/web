@@ -13,7 +13,7 @@ Creating an internal reverse proxy is a great way to host your services, without
 * A static IP set to the docker host
 
 ## Step 1: Install Docker
-Using your distribution's package manager, install the `docker` and `docker-compose` packages.
+Follow the instructions to install Docker on your device [here](https://docs.docker.com/engine/install/).
 
 To avoid having to use `sudo` each time you run a docker command, follow Docker's post-install instructions [here](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user). 
 
