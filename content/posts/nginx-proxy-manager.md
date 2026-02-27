@@ -77,7 +77,6 @@ Navigate to the Hosts menu, and select Proxy Hosts. Select Add Proxy Host. We'll
 * Under Options, select:
     * Block common exploits
     * Websockets support
-
 ![Details Tab](details.png)
 * Select the SSL tab, and under SSL certificate, select the certificate generated in Step 5.
 * Select "Force SSL", "HSTS Enabled", "HTTP/2 Support" and "HSTS Sub-domains".

@@ -11,27 +11,17 @@ Over summer of 2023, I interned at the University of Iowa, working with non-prof
 
 {{< youtube id="X8ARGScV5_g" >}}
 
-## See the dashboards I created!
+## Dashboards
 
-### Survey Dashboard
+- [Survey Dashboard](https://public.tableau.com/views/Southof6BusinessImpactSurvey/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+- [Call for Service Dashboard](https://public.tableau.com/app/profile/alexander.leitzke/viz/Southof6CallforService/CallforServiceDashboard)
 
-[![Survey dashboard](survey.png)](https://public.tableau.com/views/Southof6BusinessImpactSurvey/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-_Click the image to open the dashboard._
+[![Survey dashboard preview](survey.png)](https://public.tableau.com/views/Southof6BusinessImpactSurvey/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+[![Call for service dashboard preview](call-for-service.png)](https://public.tableau.com/app/profile/alexander.leitzke/viz/Southof6CallforService/CallforServiceDashboard)
+![Main combined dashboard with visualizations across all 5 subjects.](master-dashboard.png)
 
-### Call for Service Dashboard
+## Links
 
-[![Call for service dashboard](call-for-service.png)](https://public.tableau.com/app/profile/alexander.leitzke/viz/Southof6CallforService/CallforServiceDashboard)
-_Click the image to open the dashboard._
-
-### Main (Combined) Dashboard
-
-![Image displaying master dashboard with visualizations across all 5 subjects.](master-dashboard.png)
-
-## See the tools I wrote for this project!
-
-- Simple Python text analysis for word clouds in Tableau: [GitHub](https://github.com/ajleitzke/So6-Survey-Text-Analysis)
-- Data cleaning tool for new Call for Service data: [GitHub](https://github.com/ajleitzke/So6DataClean), [Site](https://ajleitzke.pythonanywhere.com/)
-
-## See the survey I created!
-
-- [Survey link](https://drive.google.com/file/d/15ikaZzSTloRnV_5X1pkX1M5n13Nlr82r/view?usp=sharing)
+- Survey text-analysis tool (Python): [GitHub](https://github.com/ajleitzke/So6-Survey-Text-Analysis)
+- Call-for-service data cleaning tool: [GitHub](https://github.com/ajleitzke/So6DataClean), [Site](https://ajleitzke.pythonanywhere.com/)
+- Survey form: [Download PDF](south-of-6-survey.pdf)
