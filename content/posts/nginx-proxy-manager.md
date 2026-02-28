@@ -60,7 +60,7 @@ Follow the steps to create an account, then once on the Nginx Proxy Manager dash
 ![Certificates Tab](certificates.png)
 Click the Add Certificate button and select Let's Encrypt via DNS.
 
-***Note**: By using Let's Encrypt via DNS, rather than Let's Encrypt via HTTP, our SSL certificates will be updated without having to expose ports on our router.*
+*Note: By using Let's Encrypt via DNS, rather than Let's Encrypt via HTTP, our SSL certificates will be updated without having to expose ports on our router.*
 
 Enter the domain you would like to generate a certificate for. I suggest generating a wildcard certificate (ex: `*.domain.tld`), as this will simplify adding proxy hosts. 
 
@@ -92,7 +92,7 @@ Navigate to the Hosts menu, and select Proxy Hosts. Select Add Proxy Host. We'll
 
 Now the Proxy Hosts dashboard will show the entry we just created, and we can click the domain to confirm it works. 
 
-***Note: You may initially receive a 502 Bad Gateway error, if so, this should resolve itself in less than 5 minutes. If it continues, check the logs folder in the nginx-proxy-manager directory for more information.***
+*Note: You may initially receive a 502 Bad Gateway error, if so, this should resolve itself in less than 5 minutes. If it continues, check the logs folder in the nginx-proxy-manager directory for more information.*
 
 ## Wrap Up
 
