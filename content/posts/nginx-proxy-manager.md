@@ -82,7 +82,7 @@ Navigate to the Hosts menu, and select Proxy Hosts. Select Add Proxy Host. We'll
 * Select "Force SSL", "HSTS Enabled", "HTTP/2 Support" and "HSTS Sub-domains".
 * ***Optional**: to redirect directly to the /admin panel in Pi-hole, select the gear icon and add the below text:* 
         
-    ```conf
+    ```nginx
     location = / {
         return 301 /admin;
     }
