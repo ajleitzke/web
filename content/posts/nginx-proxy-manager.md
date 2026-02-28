@@ -92,7 +92,7 @@ Navigate to the Hosts menu, and select Proxy Hosts. Select Add Proxy Host. We'll
 
 Now the Proxy Hosts dashboard will show the entry we just created, and we can click the domain to confirm it works. 
 
-***Note**: You may initially receive a 502 Bad Gateway error, if so, this should resolve itself in less than 5 minutes. If it continues, check the logs folder in the nginx-proxy-manager directory for more information.*
+***Note: You may initially receive a 502 Bad Gateway error, if so, this should resolve itself in less than 5 minutes. If it continues, check the logs folder in the nginx-proxy-manager directory for more information.***
 
 ## Wrap Up
 
